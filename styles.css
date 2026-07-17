@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit;    /*Learnt to apply Google Fonts*/
+    background-color: #d5e1ef;
+    margin: 0;    
+    text-align: center;
+    padding-top: 2em;
+}
+
+main {
+    background-color: white;
+    width: 90%;    /* considering mobile first design */
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 0 1em;
+}
+
+h1 {
+    color: #1f314f;
+    font-size: 1.5em;
+}
+
+p {
+    color: #68778d;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    padding: 0.2em;
+
+}
+
+.attribution {
+    margin-top: 20px;
+}
+
+@media (min-width:480px) {
+
+    /*Standard phone width*/
+    main {
+        width: 70%;
+    }
+}
+
+@media (min-width:768px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media (min-width:1024px) {
+    main {
+        width: 30%;
+    }
+}
