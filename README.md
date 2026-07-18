@@ -22,3 +22,7 @@ This is my attempted solution to the QR Code Component Challenge on Frontend Men
 - Revisited media queries syntax
 - Better to use relative units with padding and fixed units with margin and borders
 - And most importantly, worked with Figma for the first time. How to get color, fonts and other styles from a design file and converted it into code 
+
+## Improvements
+
+After some feedback from others and AI, replaced the use of media queries with Flexbox and max-width
